@@ -9,6 +9,7 @@ async function main () {
 	const version = await node.version()
 
 	console.log('Version:', version.version)
+	console.log(node.swarm.peers)
 
 	const fileAdded = await node.add({
 		path: 'hello.txt',
