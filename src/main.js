@@ -36,7 +36,7 @@ async function main () {
 	});
 
 	console.log(node.dht.findPeer("12D3KooWGxK9wz7EG7nbU7WwJXGSnstDgdYkeRs9nhef4WULiCfi"))
-	await node.swarm.connect("/ip4/95.217.196.54/tcp/4001/p2p/12D3KooWGxK9wz7EG7nbU7WwJXGSnstDgdYkeRs9nhef4WULiCfi")
+	await node.swarm.connect("/ip4/ipfs.blurt.world/tcp/4002/ws/p2p/12D3KooWGxK9wz7EG7nbU7WwJXGSnstDgdYkeRs9nhef4WULiCfi")
 
 	//Print IFPS-js version
 	console.log('Version:', version.version)
